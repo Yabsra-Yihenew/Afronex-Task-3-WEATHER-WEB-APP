@@ -112,9 +112,9 @@ body{
     display: none;
 }
 .error{
-    text-align: left;
+    text-align: center;
     margin-left: 10px;
-    font-size: 14 px;
-    margin-top: 10px;
+    font-size: xx-large;
+    margin-top: 10%;
     display: none;
 }
