@@ -9,7 +9,6 @@ Copy code
 body{
     overflow:auto;
 }
-
 .background {
     position: fixed;
     top: 0;
@@ -30,10 +29,8 @@ body{
 }
 
 .background iframe {
-    position: relative; /* Ensure the iframe stays above the overlay */
-    z-index: 2; /* Ensure the iframe is above the overlay */
+    pointer-events: none; /* Disable pointer events on the iframe */
 }
-
 .card{
     width: 90%;
     max-width: 470px;
