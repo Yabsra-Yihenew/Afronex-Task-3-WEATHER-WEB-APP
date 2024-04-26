@@ -93,20 +93,34 @@ body{
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
-}
-.col{
+}.col {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: left;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
-.col img{
+
+.col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.col img {
     width: 40px;
-    margin-right: 10px;
+    margin-bottom: 10px;
 }
-.humidity, .wind{
-    font-size: 28px;
-    margin-top: -6px;
+.humidity,
+.wind {
+    font-size: 18px;
+    margin-top: 5px;
 }
+
 .weather{
     display: none;
 }
