@@ -33,6 +33,20 @@ body{
     position: relative;
     z-index: 2;
 }
+.title{
+    max-width: 470px;
+    background: rgba(249, 249, 249, 0.007);
+    color: #333;
+    margin: 3% auto;
+    margin-bottom: -3%;
+    border-radius: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique, inherit, italic;
+    font-size: larger;
+}
 .card{
     width: 90%;
     max-width: 470px;
