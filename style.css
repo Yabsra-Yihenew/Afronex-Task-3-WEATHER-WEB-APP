@@ -136,6 +136,15 @@ body{
 }
 
 @media screen and (max-width: 768px) {
+    .title{
+        background: rgba(249, 249, 249, 0.007);
+        color: #333;
+        width: 90%;
+        max-width: 470px;
+        padding: 10px 5px;
+        font-size: smaller;
+        margin-bottom: 1%;
+    }
     .card {
         width: 90%;
         max-width: 470px;
